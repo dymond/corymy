@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"build": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --build && npx minify ./styles/output.css > ./cmd/styles.css"
+		"build": "npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css --build && npx minify ./styles/output.css > ./cmd/styles.css"
 	},
 	"devDependencies": {
 		"minify": "^10.5.2",
